@@ -8,7 +8,6 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    container: python:3.10-slim
 
     steps:
     - name: 📥 Checkout code
