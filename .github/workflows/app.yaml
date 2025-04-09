@@ -31,8 +31,8 @@ jobs:
 
     - name: 🏗️ Build Docker image
       run: |
-        docker build -t ${{secrets.DOCKER_USERNAME}}/Python-To-Do-API:latest .
+        docker build -t ${{secrets.DOCKER_USERNAME}}/python-to-do-api:latest .
 
     - name: 🚀 Push Docker image
       run: |
-        docker push ${{ secrets.DOCKER_USERNAME}}/Python-To-Do-API:latest
+        docker push ${{ secrets.DOCKER_USERNAME}}/python-to-do-api:latest
